@@ -23,6 +23,7 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+    scroll-behavior: smooth;
 }
 *{
 	-webkit-box-sizing: border-box;
@@ -253,8 +254,8 @@ a.link-btn i,
     cursor: pointer; 
     outline: none !important; 
     -webkit-font-smoothing: antialiased; 
-    background-color: #7fc540; 
-    border: 2px solid #7fc540; 
+    background-color: #4981AA; 
+    border: 2px solid #4981AA; 
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 .btn:hover,
@@ -268,12 +269,12 @@ a.link-btn i,
     background-color: transparent; 
     font-size: 14px; 
     padding: 12px 40px; 
-    color: #7fc540; 
-    border: 1px solid #7fc540;
+    color: #4981AA; 
+    border: 1px solid #4981AA;
 }
 .btn.btn-outline:hover,
 .btn.btn-outline:focus { 
-    background-color: #7fc540; 
+    background-color: #4981AA; 
     color: #ffffff; 
 }
 .btn-inline{
@@ -414,7 +415,7 @@ a.link-btn i,
 .home-banner.home-slider-four .carousel-item h1 span,
 .home-banner.home-slider-first .carousel-item .shapewrapper-inner,
 .bottom-footer a:hover {
-	color: #7fc540;
+	color: #4981AA;
 }
 
 /** 2.Background-color **/
@@ -451,7 +452,7 @@ a.link-btn i,
 .tagcloud a:hover,
 .comment-meta .reply a:hover,
 .pricingtable-icon{
-   background: #7fc540;
+   background: #4981AA;
 }
 
 /** 3.DarkGrey-color **/
@@ -500,7 +501,7 @@ a.link-btn i,
 .white-color h5,
 .white-color h6,
 .white-color a{
-	color: #ffffff;
+	color: #4981AA;
 }
 .white-color p{
     color: rgba(255,255,255,.8);
@@ -513,7 +514,7 @@ a.link-btn i,
 
 /** 8.Theme-border-color **/
 .blog-style-1 .blog-format-icon{
-    border-top: 60px solid #7fc540;
+    border-top: 60px solid #4981AA;
 }
 
 /*----------------------------------------*/
@@ -794,7 +795,7 @@ a.link-btn i,
     line-height: 16px;
     letter-spacing: 0.5px;
     color: #fff;
-    background-color:#7fc540;
+    background-color:#4981AA;
 }
 .main-menu .navigation > li > ul li.active a,
 .main-menu .navigation > li > ul a:hover{
@@ -1054,7 +1055,7 @@ a.link-btn i,
     position: relative;
 }
 .ts-search-overlay input[type="search"] {
-    border-bottom-color: #7fc540;
+    border-bottom-color: #4981AA;
 }
 .ts-search-overlay input[type="search"] {
     border: none;

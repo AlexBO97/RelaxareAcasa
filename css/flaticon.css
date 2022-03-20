@@ -90,3 +90,19 @@
 .flaticon-desk:before { content: "\f13c"; }
 .flaticon-eyeglasses:before { content: "\f13d"; }
 .flaticon-diagnostic:before { content: "\f13e"; }
+
+.infoIcons {
+  width: 52px;
+  height: auto;
+  padding: 10px 10px 10px 0px;
+}
+
+.iconbox:hover .infoIcons {
+  filter: brightness(100);
+}
+
+.priceIcon {
+  filter: brightness(100);
+  width: 80px;
+  height: auto;
+}

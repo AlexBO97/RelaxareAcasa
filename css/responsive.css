@@ -23,7 +23,7 @@ INDEX:
     .navbar-toggler { border: none; font-size: 30px; padding: 0; outline: none; }
     .sticky-header .navbar-toggler { top: 10px; }
     .navbar-toggler:hover, .navbar-toggler:focus { outline: none; }
-    .main-menu .navbar-collapse { position: absolute; width: 100%; left: 0; background-color: #f7f8fa; z-index: 99; top: 70px; border-top: 3px solid #7fc540; }
+    .main-menu .navbar-collapse { position: absolute; width: 100%; left: 0; background-color: #f7f8fa; z-index: 99; top: 70px; border-top: 3px solid #4981AA; }
     .sticky-header .navbar-collapse { top: 60px; }
     .main-menu .navigation > li { float: none; }
     .site-header .site-navigation ul.navigation > li > a { height: auto; line-height: inherit; padding: 10px 15px; margin: 0; border-bottom: 1px solid rgba(9, 22, 42, 0.15); }
@@ -44,7 +44,7 @@ INDEX:
     .header-style-2.site-header .navbar-toggler { color: #42464e; }
 
     /** Header Style 2 **/
-    .site-header.header-style-2 { background-color: #7fc540; position: inherit; }
+    .site-header.header-style-2 { background-color: #4981AA; position: inherit; }
     .header-style-2 .social-links-wrapper { display: none; }
     .header-style-2 .headerlogo, .header-style-2 .sticky-header .headerlogo { border-right: none; }
     .header-style-2 .headerlogo { padding-right: 0; padding-left: 20px; }
@@ -56,7 +56,7 @@ INDEX:
     .header-style-2.site-header .site-navigation ul.navigation > li > a { color: #313131; }
     .header-style-2 .site-navigation { width: auto; text-align: left; }
     .header-style-2 .site-header-menu.sticky-header { padding: 20px 0; }
-    .header-style-2.site-header .site-navigation ul.navigation > li.active > a { color: #7fc540 !important; }
+    .header-style-2.site-header .site-navigation ul.navigation > li.active > a { color: #4981AA !important; }
     .header-style-2.site-header .site-navigation ul.navigation > li > a { color: #313131 !important; }
     .header-style-2 .sticky-header .navbar-collapse { top: 50px; }
 
@@ -1522,4 +1522,13 @@ INDEX:
 }
 @media(min-width:1680px) {
     .right-bg-effect { width: 33%; }
+}
+
+@media (max-width: 1025px){
+    .col-md-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
 }

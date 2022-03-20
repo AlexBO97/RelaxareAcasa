@@ -316,7 +316,7 @@ a.play-btn span{
     line-height: 80px;
 }
 .counter-section{
-    background-image: url(../images/bg/bg-01.jpg); background-position: 0 0;
+    background-image: url(../images/bnn.jpg); background-position: 0 0;
     background-size: cover;
     margin-top: -160px; 
     padding-top: 130px;
@@ -1588,5 +1588,10 @@ a.play-btn span{
 
 
 
+ul li strong, ul h3 {
+    color: #4981aa;
+}
 
-
+#masaj, #preturi, #galerie {
+  scroll-margin-top: 150px;
+}

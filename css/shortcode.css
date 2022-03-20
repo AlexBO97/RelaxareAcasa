@@ -173,11 +173,11 @@ INDEX:
 .service-style-2:hover .service-desc { color: rgba(255, 255, 255, .7); }
 
 /** Style 3 **/
-.service-style-3 { text-align: center; color: #fff; }
+.service-style-3 { text-align: center; color: #42464e; }
 .service-style-3 .service-content { padding: 35px 25px; padding-bottom: 15px; text-align: center; }
-.service-style-3 .service-box-icon { color: #fff; }
+.service-style-3 .service-box-icon { color: #4981AA; }
 .service-style-3 .service-box-icon i:before { font-size: 60px; line-height: 60px; }
-.service-style-3 .service-title h2 { font-size: 18px; line-height: 24px; font-weight: bold; color: #fff; margin: 12px 0 15px 0; }
+.service-style-3 .service-title h2 { font-size: 18px; line-height: 24px; font-weight: bold; color: #42464e; margin: 12px 0 15px 0; }
 
 /** Style 4 **/
 .service-style-4 .service-content { padding: 20px 30px; background-color: #f6faff; }
@@ -271,7 +271,7 @@ INDEX:
 
 /*  06 - Pricing
 /*----------------------------------------*/
-.pricing-tablebox { padding: 40px; text-align: center; border-radius: 10px; box-shadow: 0 0 30px rgba(115, 128, 157, .1); background-color: #fff; height: 100%; }
+.pricing-tablebox { padding: 40px; text-align: center; border-radius: 10px; box-shadow: 0 0 30px rgba(115, 128, 157, .5); background-color: #fff; height: 100%; }
 .pricing-tablebox .pricingtable-icon { display: inline-block; margin-bottom: 16px; width: 90px; height: 90px; line-height: 90px; border-radius: 50%; color: #fff; }
 .pricing-tablebox .medium-icon i:before { line-height: inherit; }
 .pricing-tablebox .pricingtable-title { text-align: center; font-size: 25px; line-height: 35px; font-family: 'Montserrat', Arial, Helvetica; font-weight: 700; margin-top: 18px; }
@@ -286,6 +286,7 @@ INDEX:
 .pricing-tablebox.active .pricingtable-pricebox .pricingtable-price,
 .pricing-tablebox.active .pricingtable-pricebox .pricingtable-cur-symbol,
 .pricing-tablebox.active .pricingtable-pricebox .pricingtable-frequency { color: #ffffff; }
+.pricing-tablebox .pricingtable-discount { text-decoration: line-through; text-decoration-color: #4981AA; }
 
 /*----------------------------------------*/
 
@@ -432,7 +433,7 @@ INDEX:
 .footer .footer-link-list li a:before { font-family: "optico-icons"; content: "\e809"; position: absolute; top: 4px; left: 0px; line-height: 1em; font-size: 14px; }
 .footer .address-box i { font-size: 20px; margin-right: 10px; }
 .form-control { background: #fff; border: none; border-bottom: 2px solid #f4f4f4; height: 50px; padding: 10px 20px; padding-left: 0; font-weight: 600; color: #989898; font-family: inherit; border-radius: 4px; vertical-align: middle; text-transform: inherit; font-size: 14px; border-radius: 0; outline: none; line-height: inherit; }
-.footer .footer-top { padding: 40px 0; margin-bottom: 60px; }
+.footer .footer-top { padding: 40px 0;}
 .bottom-footer { border-top: 1px solid #e5e5e5; margin-top: 50px; line-height: 30px; color: rgba(0, 0, 0, 0.6); padding: 30px 0; }
 .bottom-footer a { color: #323232; }
 .bottom-footer .list-inline-item:not(:last-child) { margin-right: 1rem; }
@@ -476,8 +477,8 @@ INDEX:
 .skill-bar .progress-type { color: #353535; float: right; margin-top: -18px; position: absolute; right: 0; top: -15px; font-size: 15px; font-weight: 600; }
 .skill-bar .progress-number { right: 12px; }
 .progress-bar-02 .skill-bar { background: #414141; }
-.progress-bar-02 .skill-bar .progress-number { background-color: #414141; color: #ffffff; padding: 1px 0px 1px 9px; }
-.progress-bar-02 .skill-bar .progress-type { background-color: #414141; color: #ffffff; padding: 1px 9px 1px 0px; }
+.progress-bar-02 .skill-bar .progress-number { background-color: #414141; color: #4981AA; padding: 1px 0px 1px 9px; }
+.progress-bar-02 .skill-bar .progress-type { background-color: #414141; color: #4981AA; padding: 1px 9px 1px 0px; }
 
 /* Dark Background */
 .text-white .skill { background: rgba(255, 255, 255, 0.25); }
@@ -543,9 +544,9 @@ INDEX:
 /*----------------------------------------*/
 .db-circle-overlay { position: absolute; top: 50%; -khtml-transform: translateX(0%) translateY(-50%); -moz-transform: translateX(0%) translateY(-50%); -ms-transform: translateX(0%) translateY(-50%); -o-transform: translateX(0%) translateY(-50%); transform: translateX(0%) translateY(-50%); left: 0; width: 100%; text-align: center }
 .db-fidbox-style-2 .db-circle-w { position: relative; text-align: center }
-.db-fidbox-style-2 .db-fid-title { text-align: center; color: #fff; font-size: 14px; font-weight: 600; margin-top: 0 }
+.db-fidbox-style-2 .db-fid-title { text-align: center; color: #4981AA; font-size: 14px; font-weight: 600; margin-top: 0 }
 .db-fidbox-style-2 .db-circle-number sub,
-.db-fidbox-style-2 .db-circle-number { font-size: 20px; color: #fff; font-weight: bold }
+.db-fidbox-style-2 .db-circle-number { font-size: 20px; color: #4981AA; font-weight: bold }
 .db-fidbox-style-2 .db-circle-number sub { bottom: 0 }
 .db-fidbox-style-1 .db-fid-title { font-size: 18px; line-height: 20px; margin-top: 0 }
 .db-fidbox-style-1 .db-fid-title-w,
